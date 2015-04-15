@@ -97,6 +97,11 @@ html {
   }
 }
 
+.blinking {
+    -webkit-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;;
+    -moz-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;
+    -o-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;;
+}
 
 @-moz-keyframes animStar {
   from {
@@ -132,4 +137,24 @@ html {
   to {
     transform: translateY(-2000px);
   }
+}
+
+@-webkit-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+@-o-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+@-moz-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
+}
+
+@-keyframes blinker {  
+  from { opacity: 1.0; }
+  to { opacity: 0.0; }
 }
