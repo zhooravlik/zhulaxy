@@ -12,13 +12,17 @@
         <div id='stars2'></div>
         <div id='stars3'></div>
         <div id='title'>
-          <span>
-            Lx Zhu
-          </span>
-          <br>
-          <span>
-            Portfolio. The beginning.
-          </span>
+            <span>
+                Lx Zhu
+            </span>
+            <br>
+            <span>
+                Zhulaxy is preparing to the Big Bang
+            </span>
+            <br>
+            <span class="blinking">
+                CV is under maintenance
+            </span>
         </div>
 	</body>
 </html>
