@@ -13,8 +13,13 @@ $shadows-big: multiple-box-shadow(100);
 
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
+  background: radial-gradient(ellipse at bottom, #3d96c6 0%, #090a0f 100%);
   overflow: hidden;
+  /*position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;*/
 }
 
 #stars {
@@ -91,7 +96,7 @@ html {
   margin-top: -60px;
   padding-left: 10px;
   span {
-    background: -webkit-linear-gradient(white, #38495a);
+    background: -webkit-linear-gradient(white, #24AFD8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -100,7 +105,10 @@ html {
 .blinking {
     -webkit-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;;
     -moz-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;
-    -o-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;;
+    -o-animation: blinker 1.8s cubic-bezier(.5, 0, 1, 1) infinite;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
 }
 
 @-moz-keyframes animStar {
