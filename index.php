@@ -16,18 +16,18 @@
     <div id='stars2'></div>
     <div id='stars3'></div>
     <div id="title" class="hinga">
-            <span>
-                Lx Zhu
+            <span class="pulsator">
+                Zhoolaxy
             </span>
         <br>
-            <span>
-                Zhulaxy is preparing to the Big Bang
+            <span class="pulsator">
+                Preparing to the Big Bang
             </span>
         <br>
-            <span class="blinking">
-<!--            <span class="pulsator">-->
+        <br>
+            <p class="blinking">
                 Maintenance...
-            </span>
+            </p>
     </div>
 </div>
 </body>

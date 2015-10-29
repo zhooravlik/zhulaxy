@@ -2,13 +2,18 @@
 html {
     height: 100%;
     /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
-    background: radial-gradient(ellipse at bottom, transparent 0%, #090a0f 100%);
+    /*background: radial-gradient(ellipse at bottom, transparent 0%, #090a0f 100%);*/
     background-color: #3d96c6;
     overflow: hidden;
     /*position: fixed;
     top: 0;
     left: 0;
     width: 100%;*/
+}
+
+body {
+    background: radial-gradient(ellipse at bottom, transparent 0%, #090a0f 100%);
+    /* if uncomment, please comment the same at html*/
 }
 
 /* line 25, ../scss/scssa/_stars.scss */
