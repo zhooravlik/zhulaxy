@@ -328,7 +328,7 @@ body {
     /*-webkit-background-clip: padding-box;*/
     background-clip: padding-box;
     /*padding: 0 12px;*/
-    padding-right: 0;
+    padding: 0 0 0 10px;
     height: 80px;
     line-height: 80px;
     text-align: center;
